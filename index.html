@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing page pessoal - Lais Pinheiro</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #d674c9;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+    }
+
+    header p {
+      font-size: 1.1em;
+      opacity: 0.9;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #d674c9;
+      border-bottom: 2px solid #caf0f8;
+      padding-bottom: 5px;
+      font-size: 1.4em;
+    }
+
+    .info {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .info div {
+      flex: 1 1 45%;
+      margin-bottom: 15px;
+    }
+
+    .perfil {
+      text-align: center;
+    }
+
+    img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      border: 3px solid #d674c9;
+      object-fit: cover;
+    }
+
+    .botoes {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .btn {
+      background: #d674c9;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+      text-align: center;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background: #d674c9;
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      background: #d674c9;
+      color: white;
+      padding: 15px;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+
+    a {
+      color: #d674c9;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+      header {
+        padding: 40px 15px;
+      }
+
+      header h1 {
+        font-size: 1.8em;
+      }
+
+      section {
+        margin: 20px 15px;
+        padding: 20px;
+      }
+
+      .info div {
+        flex: 1 1 100%;
+      }
+
+      .btn {
+        width: 100%;
+        font-size: 1em;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 1.6em;
+      }
+
+      img {
+        width: 100px;
+        height: 100px;
+      }
+
+      section {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Lais Pinheiro</h1>
+    <p>Estudante | 16 Anos</p>
+  </header>
+
+  <section class="perfil">
+    <img src="imagem.minhafoto/laispinheiro.jpeg" alt="Foto de perfil">
+    <p>Sou uma pessoa apaixonada por aprendizado, e inovação. Busco constantemente crescer pessoal e profissionalmente, aplicando criatividade, responsabilidade e dedicação em tudo o que faço.</p>
+
+    <div class="botoes">
+      <a class="btn" href="https://wa.me/558897258551"s target="_blank">💬 Falar no WhatsApp</a>
+      <a class="btn" href="mailto:plais9009@gmail.com">✉ Enviar Email</a>
+      <a class="btn" href="https://www.instagram.com/eulaispb_?igsh=MWlhZ2dxdzlwaDliNg==" target="_blank"> Falar no Instagram</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Informações Pessoais</h2>
+    <div class="info">
+      <div><strong>Email:</strong> plais9009@gmail.com</div>
+      <div><strong>Telefone:</strong> (88) 9725-8551</div>
+      <div><strong>Instagram:</strong> @eulaispb_</div>
+      <div><strong>Cidade:</strong> Pereiro - CE</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Formação Acadêmica</h2>
+    <p><strong>Instituição:</strong> E.E.M Virgilio Correia Lima</p>
+    <p><strong>Ano:</strong> 2°Ano (em andamento)</p>
+    
+  </section>
+
+  <section>
+    <h2>Habilidades</h2>
+    <ul>
+      <li>Criatividade</li>
+      <li>Determinação</li>
+      <li>Empatia</li>
+      <li>Comunicção</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Sobre Mim</h2>
+    <p>Sou uma pessoa dedicada, responsavel, e com facilidade para aprender novas tarefas. Busco minha primeira oportunidade para desenvolver minhas habilidades e contribuir com o que for preciso. Tenho boa comunicação e gosto de trabalhos em grupos</p>
+  </section>
+
+  <footer>
+    © 2025 Lais Pinheiro — Com muita dedicação.
+  </footer>
+
+</body>
+</html>
